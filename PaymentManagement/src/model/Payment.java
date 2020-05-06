@@ -101,7 +101,7 @@ public class Payment {
 			// buttons
 			output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'></td>"
 						+ "<input name='btnRemove' type='button' value='Remove' class='btn btn-danger' data-paymentid='"
-						+ paymentID+"'>"+ "'>" + "</form></td></tr>"; 
+						+ paymentID+"'>"+ "</td></tr>"; 
 		}
 			con.close();
 			
